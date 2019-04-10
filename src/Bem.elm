@@ -1,6 +1,7 @@
 module Bem exposing
-    ( modList, mod
-    , block, el, element, modifier
+    ( modList, mod, modifier
+    , el, element
+    , block
     )
 
 {-| This package has a set of utilities for using the [BEM](http://getbem.com/naming/)
@@ -17,9 +18,19 @@ were intentionally given small and vague names to avoid verboseness.
             ]
 
 
-# Common Helpers
+# Modifiers
 
-@docs modList, mod
+@docs modList, mod, modifier
+
+
+# Elements
+
+@docs el, element
+
+
+# Blocks
+
+@docs block
 
 -}
 
