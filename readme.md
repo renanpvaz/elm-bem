@@ -1,6 +1,6 @@
 # [BEM](http://getbem.com/naming/) in Elm
 
-This library contains utility functions for using the BEM convention in Elm avoiding verboseness and repetition.
+This library contains utility functions for using the BEM convention in Elm avoiding verboseness and repetition. Browse the docs [here](https://package.elm-lang.org/packages/renanpvaz/elm-bem/latest/Bem).
 
 ```elm
 import Bem
