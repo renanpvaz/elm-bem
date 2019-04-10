@@ -4,7 +4,8 @@ module Bem exposing
     )
 
 {-| This package has a set of utilities for using the [BEM](http://getbem.com/naming/)
-convention in Elm.
+convention in Elm. Exposing the functions in this module is disencouraged: the functions
+were intentionally given small and vague names to avoid verboseness.
 
     view : { stickyHeader : Bool } -> Html msg
     view model =

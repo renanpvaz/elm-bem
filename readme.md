@@ -1,6 +1,6 @@
-# BEM in Elm
+# [BEM](http://getbem.com/naming/) in Elm
 
-[BEM](http://getbem.com/naming/) utilities for Elm.
+This library contains utility functions for using the BEM convention in Elm avoiding verboseness and repetition.
 
 ```elm
 import Bem
@@ -12,4 +12,18 @@ view model =
         [ h1 [] [ text "header" ]
         -- ...
         ]
+```
+
+## Installing
+
+Run the following command in the root of your project
+
+```shell
+$ elm package install renanpvaz/elm-bem
+```
+
+and import the library in a elm file like this
+
+```elm
+import Bem
 ```
