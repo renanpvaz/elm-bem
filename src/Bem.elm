@@ -78,9 +78,10 @@ mod base ( name, active ) =
             ""
 
 
-{-| Returns a _element_ class
+{-| Returns an _element_ class
 
-    button [ mod "button" ( "primary", True ) ]
+    button
+        [ class "button" ]
         [ span [ el "button" "label" ] [ text "click me" ]
         , i [ el "button" "icon" ] []
         ]
