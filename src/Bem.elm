@@ -43,7 +43,12 @@ import String
 {-| Like [classList](https://package.elm-lang.org/packages/elm/html/latest/Html-Attributes#classList)
 but for [BEM](http://getbem.com/naming/) modifiers.
 
-    button [ modList "button" [ ( "primary", True ), ( "small", False ) ] ]
+    button
+        [ modList "button"
+            [ ( "primary", True )
+            , ( "small", False )
+            ]
+        ]
         [ text "click me" ]
 
 -}
@@ -58,7 +63,8 @@ modList base =
 
 {-| Shorthand version of `modList` supporting one modifier.
 
-    button [ mod "button" ( "primary", True ) ]
+    button
+        [ mod "button" ( "primary", True ) ]
         [ text "click me" ]
 
 -}
@@ -85,15 +91,11 @@ el base name =
     class <| element base name
 
 
-{-| Returns a record with the curried verions of `el`, `mod` and `modList`
+{-| Returns a record with the partially-applied verions of `el`, `mod` and `modList`
 using the base class supplied.
 
     checkbox =
         Bem.block "checkbox"
-            == { el = el "checkbox"
-               , mod = mod "checkbox"
-               , modList = modList "checkbox"
-               }
 
     view =
         div [ checkbox.mod "big" ]
