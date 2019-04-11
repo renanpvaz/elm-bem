@@ -91,7 +91,7 @@ el base name =
     class <| element base name
 
 
-{-| Returns a record with the partially-applied verions of `el`, `mod` and `modList`
+{-| Returns a record with the partially-applied versions of `el`, `mod` and `modList`
 using the base class supplied.
 
     checkbox =
