@@ -22,7 +22,7 @@ Run the following command in the root of your project
 $ elm package install renanpvaz/elm-bem
 ```
 
-and import the library in a elm file like this
+and import the library in an Elm file like this
 
 ```elm
 import Bem
